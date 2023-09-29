@@ -1,0 +1,39 @@
+# Dossiers Electron et fichiers de configuration
+node_modules/
+dist/
+out/
+*.log
+*.lock
+*.json
+*.d.ts
+npm-debug.log
+yarn-error.log
+yarn-error.log.*
+*.sqlite3
+*.swp
+
+# Fichiers de build
+build/
+Release/
+*.pdb
+*.exp
+*.node
+*.map
+
+# Fichiers de sauvegarde
+.DS_Store
+Thumbs.db
+
+# Fichiers de dépendances généraux
+package-lock.json
+yarn.lock
+
+# Fichiers de configuration d'éditeur
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de test
+coverage/
+__tests__/
