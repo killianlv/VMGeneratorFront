@@ -2,15 +2,26 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>VM GENERATOR</title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>VM GENERATOR!</h1>
     <p>
-        We are using Node.js <span id="node-version"></span>,
-        Chromium <span id="chrome-version"></span>,
-        and Electron <span id="electron-version"></span>.
+        <!-- Ajoutez des éléments pour la saisie du repo et de la commande -->
+        <label for="repo-input">Repo:</label>
+        <input type="text" id="repo-input" placeholder="Entrez l'URL du repo">
+
+        <label for="command-input">Commande de lancement:</label>
+        <input type="text" id="command-input" placeholder="Entrez la commande de lancement">
+
+        <button id="start-button">Démarrer</button>
+
+        <!-- Ajoutez ces éléments pour afficher la sortie de la commande -->
+<pre id="command-output"></pre>
+<pre id="command-error"></pre>
+<pre id="command-exit"></pre>
+
     </p>
 </body>
 </html>
